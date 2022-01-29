@@ -10,11 +10,31 @@
     <title>Rock Paper Siccors</title>
 </head>
 <body>
-    <div class="chioces">
-        <button class="chioces" data-selection="rock">✊</button>
-        <button class="chioces" data-selection="paper">✋</button>
-        <button class="chioces" data-selection="scissors">✌</button>
+    <h1 class="heading">
+        Rock Paper Scissors<br>
+        <img class="logo" src="assets/images/logo.png" alt="logo">
+         </h1>
+         <div><h2>Pick Your Weapon</h2></div>
+    <div class="selections">
+        <button class="selection" data-selection="rock"><img src="assets/images/rock.png" alt="rock"></button>
+        <button class="selection" data-selection="paper"><img src="assets/images/paper.png" alt="paper"></button>
+        <button class="selection" data-selection="scissors">
+            <img src="assets/images/siccors.png" alt="siccors">
+        </button>
       </div>
+      <div><h2>Check Your Luck</h2></div>
+   <div class="results">
+    <div>
+      You
+      <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+      Computer
+      <span class="result-score" data-computer-score>0</span>
+    </div>
+    <div class="result-selection winner"></div>
+    <div class="result-selection"></div>
+  </div>
     
 <script src="assets/js/script.js"></script>     
 </body>
