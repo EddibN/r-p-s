@@ -1,21 +1,26 @@
 body{
     width: 100%;
+    background-color: black;
 }
 
 .selections{
     text-align: center;
+    color: white;
 }
 
 .results{
     text-align: center;
+    color: white;
 }
 
 h1,h2{
     text-align: center;
+    color: white;
 }
 
 footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    font-size: 120%;
 }
