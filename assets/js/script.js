@@ -61,6 +61,6 @@ function draw(selection,  opponentSelection) {
   
   const element = document.getElementById("rules");
 element.addEventListener("click", function() {
-  document.getElementById("rules").innerHTML = "ROCK BEATS SICCORS , SICCORS BEATS PAPER & PAPER BEATS ROCK!";
+  document.getElementById("therules").innerHTML = "ROCK BEATS SICCORS , SICCORS BEATS PAPER & PAPER BEATS ROCK!";
 });
   
