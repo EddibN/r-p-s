@@ -11,7 +11,7 @@ const SELECTIONS = [
   {
     name: 'scissors', beats: 'paper'  }
 ]
-
+alert( "Are you ready for the hardest game ever played? press ok to try!")
 selectionButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection
@@ -27,7 +27,7 @@ function playgame(selection) {
 
   addSelectionResult(computerSelection, computerWinner)
   addSelectionResult(selection, you)
-  addSelectionResult(draw, draw)
+  addSelectionResult(selection, draw)
 
   if (you) incrementScore(youwinsScoreSpan) 
   if (computerWinner) incrementScore(computerScoreSpan) 
@@ -58,4 +58,5 @@ function isWinner(selection,  opponentSelection) {
 function draw(selection,  opponentSelection) {
     return  selection.beats == opponentSelection.name;
   }
+  
   
