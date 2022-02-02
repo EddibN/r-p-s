@@ -11,7 +11,7 @@ const SELECTIONS = [
   {
     name: 'scissors', beats: 'paper'  }
 ]
-alert( "Are you ready for the hardest game ever played? press ok to try!")
+
 selectionButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection
