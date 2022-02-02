@@ -6,7 +6,7 @@ As the computer chooses randombly its all about LUCK!
 # Features 
 
 ## Header
-
+Featured at the top of the page the header show what game its time to play
 
 
 ## Game Options
@@ -29,4 +29,6 @@ Rules Pop Up by pressing Th Rules Button
 - Java
   - No errors were found when passing through the official [JSHint validator]
 
+# Credits
+Images : 
   
