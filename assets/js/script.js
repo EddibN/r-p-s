@@ -59,4 +59,8 @@ function draw(selection,  opponentSelection) {
     return  selection.beats == opponentSelection.name;
   }
   
+  const element = document.getElementById("rules");
+element.addEventListener("click", function() {
+  document.getElementById("rules").innerHTML = "ROCK BEATS SICCORS , SICCORS BEATS PAPER & PAPER BEATS ROCK!";
+});
   
