@@ -55,6 +55,6 @@ function isWinner(selection,  opponentSelection) {
 }
 
 function isDraw(selection,  opponentSelection) {
-    return  selection.beats == opponentSelection.name
+    return  selection.beats === opponentSelection.name
   }
   
