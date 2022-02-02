@@ -38,23 +38,24 @@ function incrementScore(scoreSpan) {
 }
 
 function addSelectionResult(selection, winner) {
-  const div = document.createElement('div')
-  div.innerText = selection.innerText
-  div.classList.add('result-selection')
-  if (winner) div.classList.add('winner')}
+  const div = document.createElement('div');
+   div.innerText = selection.innerText
+  div.classList.add('result-selection');
+  if (winner) div.classList.add('winner')
+  if (draw) div.classList.add('draw')}
 
 function randomSelection() {
-    const randomIndex = Math.floor(Math.random() *3)
-    return SELECTIONS[randomIndex]
+    const randomIndex = Math.floor(Math.random() *3);
+    return SELECTIONS[randomIndex];
   }
   
 
 function isWinner(selection,  opponentSelection) {
-  return selection.beats === opponentSelection.name
+  return selection.beats === opponentSelection.name;
   
 }
 
-function isDraw(selection,  opponentSelection) {
-    return  selection.beats === opponentSelection.name
+function draw(selection,  opponentSelection) {
+    return  selection.beats == opponentSelection.name;
   }
   
