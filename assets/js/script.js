@@ -27,7 +27,7 @@ function playgame(selection) {
 
   addSelectionResult(computerSelection, computerWinner)
   addSelectionResult(selection, you)
-  addSelectionResult(computerSelection == you, draw)
+  addSelectionResult(draw, draw)
 
   if (you) incrementScore(youwinsScoreSpan) 
   if (computerWinner) incrementScore(computerScoreSpan) 
